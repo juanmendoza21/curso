@@ -1,0 +1,3 @@
+[fanstatic.libraries]
+font_awesome = js.fontawesome:library
+

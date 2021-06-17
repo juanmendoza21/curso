@@ -1,0 +1,113 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+ <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+ <!-- Carrusel -->
+<link href="css/carousel.css" rel="stylesheet">
+ 
+<!-- Estilos Personalizados -->
+<link href="css/estilos.css" rel="stylesheet">
+    <title>
+        
+        ::Sigex:: </title>
+ 
+  	  {# Cargamos la librería #}
+        {% load bootstrap3 %}
+     
+	  {# CSS Bootstrap #}
+	  {% bootstrap_css %}
+
+	  {% load fontawesome_5 %}
+ 
+      <header class="masthead">
+        <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarCollapse">
+               <ul class="navbar-nav text-md-center nav-justified w-100">
+                 <li class="nav-item">
+                   <a href="#">
+                     <img src="https://blog.nubecolectiva.com/wp-content/uploads/2018/06/logo_web.png">
+                   </a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                 </li>
+                 <li class="nav-item active">
+                   <a class="nav-link" href="blog.html">Blog</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="noticias.html">Noticias</a>
+                 </li>
+                 <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nosotros</a>
+                   <div class="dropdown-menu" aria-labelledby="dropdown01">
+                     <a class="dropdown-item" href="nosotros.html">El Equipo</a>
+                     <a class="dropdown-item" href="nosotros.html">Misión</a>
+                     <a class="dropdown-item" href="nosotros.html">Visión</a>                  
+                   </div><svg class="icon">
+                    <use xlink:href="open-iconic.svg#account-login" class="icon-account-login"></use>
+                  </svg>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="https://www.youtube.com/channel/UCLFehboXrIhKu15JFpZt2Gw/videos" target="_blank">Videos</a>
+                 </li>
+                 <li class="nav-item">
+                    <i class="fab fa-accessible-icon"></i><a class="nav-link" href="contacto.html">Contacto</a>
+                 </li>
+                 
+               </ul>
+             </div>
+        </nav>
+   </header>
+  </head>        
+ <body>
+    {% fa5_icon 'github' 'fab' %}
+</div><div class="conteiner">
+    <div class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
+	     <div class="widget box">
+    		<div class="widget-header">
+                <i class="fa fa-python" aria-hidden="true"></i> Listado de Registros Modificados</h4>
+				</div>
+				<div class="widget-content">
+			
+<form  class="form-horizontal row-border" action=http://127.0.0.1:8000/prueba2/  method= 'get' enctype='multipart/form-data' >
+<div class="form-group">
+										<button class='btn btn-success pull-rigth'><i class="fab fa-accessible-icon"></i></button>						
+										<label class="col-md-4 control-label">Usuario: <span class="required">*</span></label>
+										<INPUT TYPE=text  name=cual style="width:300px;height:32px">
+									<input class='btn btn-secondary pull-rigth' type="submit"  value="Consultar"  />
+									</div>	
+
+
+</FORM> 
+
+</BODY> 
+</div>
+</div>
+</div>
+</div>            
+<!-- JavaScript Colocado al final del documento para que las páginas se carguen más rápido -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+
+    {# JS y jQuery Bootstrap #}
+    {% bootstrap_javascript jquery='full' %}
+
+</body>
+</html>

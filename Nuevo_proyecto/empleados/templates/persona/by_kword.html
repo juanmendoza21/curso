@@ -1,0 +1,22 @@
+<h1>buscar empleado por palabra clave</h1>
+{% load bootstrap4 %}
+{
+
+
+<form method="GET"class="form">{% csrf_token %}
+    <input type="text" id="kword" name ="kword" placeholder="EScriba el area">
+    <button type="submit">Buscar</button>
+</form>
+    {% buttons %}
+        <button type="submit" class='btn btn-secondary pull-rigth'>Submit</button>
+    {% endbuttons %}
+</form>
+<h3> Lista de Resultados</h3>
+<ul>
+    
+    {% for e in empleados %}
+        <li>{{e}}</li>
+        
+    {% endfor %}
+        
+</ul>
